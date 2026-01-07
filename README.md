@@ -1,1 +1,65 @@
-# Work-From-Home-WFH-vs-Back-To-Office-A-Data-Driven-Analysis
+**Methodology & Technical Approach**
+
+- Analyzed global and U.S. Work-From-Home (WFH), Hybrid, and Full Onsite work patterns using datasets from WFH Research
+- Examined long-run trends spanning pre-COVID, COVID shock, and post-pandemic stabilization
+- Cleaned and structured survey-based and aggregated datasets by:
+    - Standardizing time formats and industry labels
+    - Handling missing and inconsistent survey responses
+    - Aligning multiple datasets for temporal and categorical comparison
+- Conducted long-run trend analysis of work arrangements
+- Identified a sharp pandemic-driven spike in WFH during 2020
+- Observed post-2021 normalization with hybrid work stabilizing around ~30%
+- Found full-remote work declining but remaining above pre-COVID baselines
+- Performed industry-level analysis of WFH adoption
+- Identified high-WFH industries:
+    - Information
+    - Finance & Insurance
+    - Professional & Business Services
+- Identified low-WFH industries:
+    - Hospitality & Food Services
+    - Retail
+    - Transportation & Warehousing
+- Applied clustering techniques to group industries into:
+    - High WFH adoption (>35%)
+    - Medium WFH adoption (20–35%)
+    - Low WFH adoption (<20%)
+- Highlighted structural differences based on job nature and digital feasibility
+- Conducted city-level analysis across major U.S. metro areas
+- Compared WFH trends in Bay Area, Chicagoland, Washington DC, and Los Angeles
+- Observed consistent declines from 2020 peaks while remaining above pre-pandemic norms
+- Analyzed employee preferences and micro-level factors using survey data
+- Found WFH preference strongly associated with:
+    - Better sleep
+    - Improved work-life balance
+    - Increased quality time
+- Observed office-preferred workers reporting higher perceived structure but slightly higher stress
+- Performed correlation analysis on WFH preference drivers
+- Identified strongest correlations with:
+    - Quality time (≈0.48)
+    - Work-life balance (≈0.40)
+    - Better sleep (≈0.38)
+- Found demographic factors such as age to be less influential
+- Conducted ROI and cost-benefit analysis across work models
+- Compared real-estate costs, IT infrastructure, productivity, and employee satisfaction
+- Identified Hybrid (≈50%) as the most cost-effective and balanced long-term model
+- Implemented ARIMA-based time-series forecasting
+
+Forecasted:
+    - Full Remote stabilizing around 11–12%
+    - Hybrid Work stabilizing around 26–27%
+- Validated hybrid work as the dominant long-term organizational structure
+-Developed advanced visualizations to support analysis:
+    - Long-run trend plots
+    - Industry and city comparison charts
+    - Correlation heatmaps
+    - Stacked work-arrangement distributions
+    - Forecast plots with confidence intervals
+- Consolidated findings into a structured analytical report emphasizing workforce strategy, productivity, cost optimization, and policy implications
+
+**Technical Emphasis**
+- Survey data preprocessing and validation
+- Long-run trend and structural-shift analysis
+- Industry and geographic segmentation
+- Correlation analysis and clustering
+- Time-series forecasting (ARIMA)
+- Policy-driven data visualization and storytelling
